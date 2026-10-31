@@ -1,0 +1,262 @@
+{
+ "Low": {
+  "tau_seed_mean": 0.7492424242424242,
+  "tau_seed_min": 0.6553030303030303,
+  "tau_refit_mean": 0.5301652892561984,
+  "tau_refit_min": 0.19318181818181818,
+  "top_features": {
+   "y_lag0": {
+    "median_rank": 1.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": 2.1878612578759635
+   },
+   "Humidifier_power_kW__lag0": {
+    "median_rank": 2.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": 1.078932334852816
+   },
+   "PV_panels_power_kW__lag0": {
+    "median_rank": 4.0,
+    "frac_in_topk": 0.8545454545454545,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.37244207170193283
+   },
+   "moy_cos": {
+    "median_rank": 5.0,
+    "frac_in_topk": 0.8818181818181818,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.2903528133371208
+   },
+   "hour_sin": {
+    "median_rank": 5.0,
+    "frac_in_topk": 0.9,
+    "sign_agreement": 0.9090909090909091,
+    "mean_coef": 0.28450894722411907
+   },
+   "dow_sin": {
+    "median_rank": 8.0,
+    "frac_in_topk": 0.5454545454545454,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.2287436205444536
+   },
+   "Battery_system_power_lag0": {
+    "median_rank": 13.0,
+    "frac_in_topk": 0.2545454545454545,
+    "sign_agreement": 0.9636363636363636,
+    "mean_coef": 0.1714282207782588
+   },
+   "y_rm4": {
+    "median_rank": 10.0,
+    "frac_in_topk": 0.3,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.21183444802407023
+   }
+  }
+ },
+ "Medium": {
+  "tau_seed_mean": 0.7403198653198653,
+  "tau_seed_min": 0.6628787878787878,
+  "tau_refit_mean": 0.5342975206611569,
+  "tau_refit_min": 0.3181818181818182,
+  "top_features": {
+   "y_lag0": {
+    "median_rank": 1.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": 2.2505352143953883
+   },
+   "Humidifier_power_kW__lag0": {
+    "median_rank": 2.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": 1.1072079824347547
+   },
+   "PV_panels_power_kW__lag0": {
+    "median_rank": 4.0,
+    "frac_in_topk": 0.8727272727272727,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.37632595202927516
+   },
+   "moy_cos": {
+    "median_rank": 6.0,
+    "frac_in_topk": 0.8454545454545455,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.2667379086384141
+   },
+   "Battery_system_power_lag0": {
+    "median_rank": 13.0,
+    "frac_in_topk": 0.2818181818181818,
+    "sign_agreement": 0.9818181818181818,
+    "mean_coef": 0.1810725841936267
+   },
+   "dow_sin": {
+    "median_rank": 10.0,
+    "frac_in_topk": 0.2909090909090909,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.1952452521775014
+   },
+   "y_lag8": {
+    "median_rank": 8.0,
+    "frac_in_topk": 0.5545454545454546,
+    "sign_agreement": 1.0,
+    "mean_coef": -0.25197172844932
+   },
+   "y_rm4": {
+    "median_rank": 12.0,
+    "frac_in_topk": 0.3,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.1913737566436531
+   }
+  }
+ },
+ "Peak": {
+  "tau_seed_mean": 0.7452020202020202,
+  "tau_seed_min": 0.6439393939393939,
+  "tau_refit_mean": 0.6666666666666667,
+  "tau_refit_min": 0.4393939393939394,
+  "top_features": {
+   "y_lag0": {
+    "median_rank": 1.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": 1.1569266990832696
+   },
+   "Humidifier_power_kW__lag0": {
+    "median_rank": 2.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.4070884428908323
+   },
+   "y_rm4": {
+    "median_rank": 4.0,
+    "frac_in_topk": 0.9363636363636364,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.24062198520041897
+   },
+   "hour_cos": {
+    "median_rank": 3.0,
+    "frac_in_topk": 1.0,
+    "sign_agreement": 1.0,
+    "mean_coef": -0.2884118160227238
+   },
+   "moy_cos": {
+    "median_rank": 7.0,
+    "frac_in_topk": 0.6909090909090909,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.18346495507765465
+   },
+   "HV_light_Power_kW__lag0": {
+    "median_rank": 6.5,
+    "frac_in_topk": 0.6909090909090909,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.18301180569154307
+   },
+   "PV_panels_power_kW__lag0": {
+    "median_rank": 6.0,
+    "frac_in_topk": 0.6818181818181818,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.2009405074338114
+   },
+   "y_lag672": {
+    "median_rank": 9.0,
+    "frac_in_topk": 0.45454545454545453,
+    "sign_agreement": 1.0,
+    "mean_coef": 0.16463991796875138
+   }
+  }
+ },
+ "dose_response": {
+  "HVAC_Actual_kW__lag0": {
+   "binned_spearman_mean": 0.7750362314500963,
+   "frac_hours_strictly_monotone": 0.0,
+   "hours": 24,
+   "lime_sign": {
+    "Low": 1.0,
+    "Medium": 1.0,
+    "Peak": 1.0
+   },
+   "agrees": {
+    "Low": true,
+    "Medium": true,
+    "Peak": true
+   }
+  },
+  "Chiller_Power_kW__lag0": {
+   "binned_spearman_mean": -0.09167395288114885,
+   "frac_hours_strictly_monotone": 0.0,
+   "hours": 24,
+   "lime_sign": {
+    "Low": -1.0,
+    "Medium": -1.0,
+    "Peak": -1.0
+   },
+   "agrees": {
+    "Low": true,
+    "Medium": true,
+    "Peak": true
+   }
+  },
+  "Humidifier_power_kW__lag0": {
+   "binned_spearman_mean": 0.25842965110011856,
+   "frac_hours_strictly_monotone": 0.0,
+   "hours": 24,
+   "lime_sign": {
+    "Low": 1.0,
+    "Medium": 1.0,
+    "Peak": 1.0
+   },
+   "agrees": {
+    "Low": true,
+    "Medium": true,
+    "Peak": true
+   }
+  },
+  "HV_light_Power_kW__lag0": {
+   "binned_spearman_mean": 0.6082739456947454,
+   "frac_hours_strictly_monotone": 0.0,
+   "hours": 24,
+   "lime_sign": {
+    "Low": 1.0,
+    "Medium": 1.0,
+    "Peak": 1.0
+   },
+   "agrees": {
+    "Low": true,
+    "Medium": true,
+    "Peak": true
+   }
+  },
+  "PV_panels_power_kW__lag0": {
+   "binned_spearman_mean": 0.6791941646405001,
+   "frac_hours_strictly_monotone": 0.0,
+   "hours": 24,
+   "lime_sign": {
+    "Low": 1.0,
+    "Medium": 1.0,
+    "Peak": 1.0
+   },
+   "agrees": {
+    "Low": true,
+    "Medium": true,
+    "Peak": true
+   }
+  },
+  "Battery_system_power_lag0": {
+   "binned_spearman_mean": 0.47914565641805695,
+   "frac_hours_strictly_monotone": 0.0,
+   "hours": 24,
+   "lime_sign": {
+    "Low": 1.0,
+    "Medium": 1.0,
+    "Peak": 1.0
+   },
+   "agrees": {
+    "Low": true,
+    "Medium": true,
+    "Peak": true
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "stability": {
+  "Low demand": {
+   "feasible_frac": 1.0,
+   "achieved_mean": 0.8542372626574727,
+   "achieved_sd": 0.031451155123884626,
+   "physical_signs": true,
+   "delta_sd_max": 0.5958498888142887
+  },
+  "Medium demand": {
+   "feasible_frac": 1.0,
+   "achieved_mean": 2.284597599076706,
+   "achieved_sd": 4.440892098500626e-16,
+   "physical_signs": true,
+   "delta_sd_max": 0.0767682225924242
+  },
+  "Peak demand": {
+   "feasible_frac": 0.0,
+   "achieved_mean": 14.399119558608636,
+   "achieved_sd": 0.09491548388691601,
+   "physical_signs": true,
+   "delta_sd_max": 2.844097144030143
+  }
+ },
+ "MD99": 6.301030274073191,
+ "B1": [
+  0.001438727366733079,
+  113.93500345160328
+ ],
+ "B2": [
+  0.9039107666813219,
+  42.99507766416111
+ ]
+}

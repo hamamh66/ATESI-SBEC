@@ -1,0 +1,60 @@
+{
+ "rows": [
+  {
+   "controller": "Conventional rule-based TES controller",
+   "cost_base": 352.6445659166667,
+   "cost": 356.8794261930558,
+   "co2_base": 689.3895095399193,
+   "co2": 742.5469699988337,
+   "peak_base": 15.754,
+   "peak": 54.454,
+   "cycles": 5.019380520833334,
+   "soc_min": 0.40120856418580253,
+   "soc_max": 0.95,
+   "cost_saving_pct": -1.2008862990362523,
+   "co2_saving_pct": -7.710802053601062,
+   "peak_change_pct": 245.65189793068427,
+   "cost_incl_demand": 1010.3274261930558,
+   "cost_base_incl_demand": 541.6925659166667,
+   "cost_saving_incl_demand_pct": -86.51306843824828
+  },
+  {
+   "controller": "Threshold policy (Section 3.5)",
+   "cost_base": 352.6445659166667,
+   "cost": 359.26424204088585,
+   "co2_base": 689.3895095399193,
+   "co2": 772.053318271295,
+   "peak_base": 15.754,
+   "peak": 57.82866666666666,
+   "cycles": 9.150619255334627,
+   "soc_min": 0.0937944888973536,
+   "soc_max": 0.95,
+   "cost_saving_pct": -1.8771524543450546,
+   "co2_saving_pct": -11.99087128357137,
+   "peak_change_pct": 267.0729126994202,
+   "cost_incl_demand": 1053.2082420408858,
+   "cost_base_incl_demand": 541.6925659166667,
+   "cost_saving_incl_demand_pct": -94.42914824917683
+  },
+  {
+   "controller": "MILP w=0.10",
+   "bill_saving_pct": -5.880074173515082,
+   "cost_base": 352.6445659166667,
+   "cost": 315.1190929849838,
+   "co2_base": 689.3895095399193,
+   "co2": 682.9821841966263,
+   "cost_saving_pct": 10.641160125107529,
+   "co2_saving_pct": 0.9294201978166328,
+   "cycles": 5.16603149468885,
+   "peak_base": 15.754,
+   "peak": 21.5354498,
+   "peak_change_pct": 36.69829757521899,
+   "cost_saving_incl_demand_pct": -5.880074173515082
+  }
+ ],
+ "thresholds": [
+  2.2508138818095933,
+  5.035187030499611
+ ],
+ "milp_N": 2784
+}

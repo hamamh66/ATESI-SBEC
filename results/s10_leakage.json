@@ -1,0 +1,28 @@
+{
+ "future_perturbation": {
+  "issue_times_tested": 20,
+  "rows_per_test": 500,
+  "columns": 33,
+  "failures": 0
+ },
+ "partition_isolation": {
+  "train_rows_compared": 166978,
+  "max_abs_diff": 0.0,
+  "columns_differing": 0,
+  "note_train_rows_missing_after_rebuild": 4
+ },
+ "interpolation": {
+  "intervals_with_missing": 1078,
+  "intervals_filled_by_two_sided_linear_interpolation": 50,
+  "intervals_dropped": 1028,
+  "fraction_of_kept": 0.00023877289832094898,
+  "filled_in_test_window": 19
+ },
+ "ffill_holdout": {
+  "R2": 0.7320895930547462,
+  "MAE": 2.0543928867021277,
+  "RMSE": 3.5881622166980707,
+  "NMAE": 0.3717303978961039,
+  "NRMSE": 0.6492570029631025
+ }
+}

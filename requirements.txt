@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.4.1
+pulp==2.9.0
+dice-ml
+statsmodels
+scipy
+matplotlib
+torch

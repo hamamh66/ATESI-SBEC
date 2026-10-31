@@ -1,0 +1,8 @@
+{
+  "title": "ATESI-SBEC: Auditable Thermal Energy Storage Intelligence for Smart-Building Energy Prediction and Carbon-Aware Optimization (code and results)",
+  "description": "Open-source repository providing a fully reproducible implementation of ATESI-SBEC: leakage-safe one-hour-ahead building demand forecasting, LIME attribution with consistency and dose-response checks, DiCE counterfactual recourse under envelope and coupling constraints, and receding-horizon mixed-integer thermal-storage dispatch with time-of-use cost and carbon accounting, evaluated on a public six-year smart-building dataset.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [{"name": "Hamam, Habib", "affiliation": "Université de Moncton"}],
+  "keywords": ["thermal energy storage", "smart buildings", "load forecasting", "counterfactual explanations", "DiCE", "LIME", "mixed-integer dispatch", "carbon accounting", "reproducibility"]
+}

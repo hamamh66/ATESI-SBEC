@@ -1,0 +1,4 @@
+Record,Timestamp,Original_kW,Target_kW,Achieved_kW,Feasible,HVAC_Actual_kW_,Chiller_Power_kW_,Humidifier_power_kW_,HV_light_Power_kW_,PV_panels_power_kW_
+Low demand,2021-06-05 18:15:00,1.023,0.768,0.84,True,0.655 -> 0.655,0.142 -> 0.142,0.008 -> 0.008,0.340 -> 0.340,-2.310 -> -4.371
+Medium demand,2021-01-25 02:30:00,2.973,2.23,2.285,True,1.097 -> 1.097,0.144 -> 0.144,0.008 -> 0.008,0.436 -> 0.436,0.006 -> -5.345
+Peak demand,2020-12-16 09:15:00,15.916,11.937,14.315,False,5.523 -> 5.042,0.146 -> 0.144,0.009 -> 0.009,8.874 -> 8.579,-0.077 -> -13.558
