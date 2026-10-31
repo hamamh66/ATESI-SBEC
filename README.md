@@ -1,5 +1,7 @@
 # ATESI-SBEC
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23840797.svg)](https://doi.org/10.5281/zenodo.23840797)
+
 **Auditable Thermal Energy Storage Intelligence for Smart-Building Energy Prediction and Carbon-Aware Optimization**
 
 This repository contains the complete, reproducible analysis pipeline of ATESI-SBEC, a leakage-safe decision-support framework for thermal energy storage (TES) in a smart building. One notebook takes the public raw data to every table and result figure of the article:
@@ -46,3 +48,7 @@ Results of the tree ensembles depend slightly on library versions; the reported 
 ## License
 
 MIT — see `LICENSE`. The dataset remains subject to the terms of its Kaggle source.
+
+## Citation
+
+Archived release: Zenodo, doi:10.5281/zenodo.23840797 (v1.0.0). See also `CITATION.cff`.
